@@ -1,0 +1,30 @@
+{
+  "name": "prisma_init",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc && node ./dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kunal00000/prisma_init.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kunal00000/prisma_init/issues"
+  },
+  "homepage": "https://github.com/kunal00000/prisma_init#readme",
+  "dependencies": {
+    "@prisma/client": "^5.2.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "prisma": "^5.2.0",
+    "typescript": "^5.2.2"
+  }
+}
